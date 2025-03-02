@@ -15,46 +15,12 @@ This repository contains my solution for the Kaggle competition **Playground Ser
 ```
 📦 Binary-Prediction-with-a-Rainfall-Dataset
 ├── notebooks/             # Jupyter Notebooks for data exploration and modeling
-├── src/                   # Scripts for data preprocessing, model training, and evaluation
-├── data/                  # Sample datasets (if applicable)
+├── input/                   # Scripts for data preprocessing, model training, and evaluation
+├── output/                  # Sample datasets (if applicable)
 ├── models/                # Saved models and predictions
 ├── results/               # Performance metrics and leaderboard submissions
 ├── README.md              # Project documentation
 ```
-
-## 📊 Approach & Methodology
-1. **Data Preprocessing**
-   - Handling missing values
-   - Feature engineering and selection
-   - Normalization and encoding
-
-2. **Model Selection & Training**
-   - Tried various ML models: Logistic Regression, Decision Trees, Random Forest, XGBoost, and Neural Networks
-   - Optimized hyperparameters using GridSearchCV and Optuna
-
-3. **Evaluation & Submission**
-   - Measured performance using **log loss and AUC-ROC**
-   - Generated predictions and submitted results to Kaggle
-
-## 🚀 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PhenomSG/Binary-Prediction-with-a-Rainfall-Dataset.git
-   cd Binary-Prediction-with-a-Rainfall-Dataset
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run Jupyter Notebook for data exploration:
-   ```bash
-   jupyter notebook
-   ```
-4. Train the model using `src/train_model.py`:
-   ```bash
-   python src/train_model.py
-   ```
-5. Generate predictions and evaluate results.
 
 ## 📈 Results & Performance
 - **Baseline Model**: Logistic Regression - Log Loss: *X.XX*
